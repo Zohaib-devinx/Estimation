@@ -1,0 +1,4 @@
+2023-03-02T09:01:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Devinx-dashboard\wp-content\plugins\trx_addons\components\widgets\calendar\calendar-sc.php on line 10
+
+2023-03-02T09:01:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Devinx-dashboard\wp-content\plugins\trx_addons\components\cpt\layouts\shortcodes\logo\logo-sc-gutenberg.php on line 10
+

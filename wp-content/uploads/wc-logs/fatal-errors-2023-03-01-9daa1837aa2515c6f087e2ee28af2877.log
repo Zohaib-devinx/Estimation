@@ -1,0 +1,19 @@
+2023-03-01T16:37:28+00:00 CRITICAL Uncaught TypeError: call_user_func(): Argument #1 ($callback) must be a valid callback, class UACF7_Admin_Menu does not have a method "uacf7_enable_booking_form_callback" in C:\xampp\htdocs\Devinx-dashboard\wp-admin\includes\template.php:1785
+Stack trace:
+#0 C:\xampp\htdocs\Devinx-dashboard\wp-admin\includes\template.php(1739): do_settings_fields('ultimate-addons...', 'uacf7_setting_s...')
+#1 C:\xampp\htdocs\Devinx-dashboard\wp-content\plugins\ultimate-addons-for-contact-form-7\admin\admin-menu.php(55): do_settings_sections('ultimate-addons...')
+#2 C:\xampp\htdocs\Devinx-dashboard\wp-includes\class-wp-hook.php(308): UACF7_Admin_Menu->uacf7_create_admin_page('')
+#3 C:\xampp\htdocs\Devinx-dashboard\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\Devinx-dashboard\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\Devinx-dashboard\wp-admin\admin.php(259): do_action('contact-1_page_...')
+#6 {main}
+  thrown in C:\xampp\htdocs\Devinx-dashboard\wp-admin\includes\template.php on line 1785
+
+2023-03-01T16:42:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "uacf7_repeater_pro_tag_generator" not found or invalid function name in C:\xampp\htdocs\Devinx-dashboard\wp-includes\class-wp-hook.php:308
+Stack trace:
+#0 C:\xampp\htdocs\Devinx-dashboard\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\Devinx-dashboard\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\Devinx-dashboard\wp-admin\admin.php(175): do_action('admin_init')
+#3 {main}
+  thrown in C:\xampp\htdocs\Devinx-dashboard\wp-includes\class-wp-hook.php on line 308
+
